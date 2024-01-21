@@ -122,7 +122,7 @@ def plotting_function():
     ax[1].set_title("Without shift")
     fig.subplots_adjust(hspace=0.3)
     
-if __name__ == "__main__":
+if __name__ == "__main1__":
     matrices = {
         "hilbert": hilbert(4),
         "diag(1,2,3,4)+ones": np.diag([1, 2, 3, 4]) + np.ones((4, 4)),
