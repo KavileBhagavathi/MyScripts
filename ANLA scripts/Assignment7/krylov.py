@@ -6,7 +6,8 @@ Created on Tue Jan 23 16:02:11 2024
 """
 
 import numpy as np
-def create_A(k, ω=1):
+import scipy as sp
+def create_A(k, ω):
     np.random.seed(17)
     D = np.diag(sum([[i] * i for i in range(1, k + 1)], []))
     m = D.shape[0]
@@ -17,11 +18,10 @@ def cg(A, b, tol=1e-12):
     """Function to implement Conjugate Gradient iteration"""
     m = A.shape[0]
     x = np.zeros(m, dtype=A.dtype)
-    r = b
+    r = b.copy()
     residual = [1]
     p = r.copy()
     # todo
-    i = 0
     for i in range(m):
         print(i)
         alpha_numer = np.dot(r.T,r)
@@ -29,16 +29,17 @@ def cg(A, b, tol=1e-12):
         alpha_denom2 = np.dot(alpha_denom1,p)
         alpha = alpha_numer/alpha_denom2 #step length
         x_n = x + alpha*p  #approx solution
-        r_n = r - alpha*np.dot(A,p) #residual
-        beta_n = np.dot(r_n.T,r_n)/np.dot(r.T,r) #improvement in this step
-        p_n = r_n + beta_n*p #search direction
-        #Updating inputs for next iteration
-        x = x_n
-        r = r_n
-        p = p_n
+        r_n = b - alpha*np.dot(A,p) #residual
         residual.append(np.linalg.norm(r_n,ord=2)/np.linalg.norm(b,ord=2))
         if residual[-1] < tol:
             break
+        else:
+            beta_n = np.dot(r_n.T,r_n)/np.dot(r.T,r) #improvement in this step
+            p_n = r_n + beta_n*p #search direction
+            #Updating inputs for next iteration
+        x = x_n
+        r = r_n
+        p = p_n
     return x, residual
 
 def arnoldi_n(A, Q, P=None):
@@ -68,16 +69,14 @@ def arnoldi(A, Q, k):
   return h, q
 
     
-def gmres(A, b, P, tol):
+def gmres(A, b,tol,P=None):
+    m,_ = np.shape(A)
+    if P == None:
+        P = np.eye(A.shape[0])
+    b_new = sp.linalg.solve_triangular(P, b)
     x = np.zeros(A.shape[1]) #initial guess 
-    q = b / (np.linalg.norm(b,ord=2)) #inital guess vector
-    n = q.shape[0]
-    m = A.shape[0]
-    Q = np.zeros((n,n)) #Initializing unitary matrix 
-    Q[:,0] = q #Set first column of Q as q
+    q = b_new / (np.linalg.norm(b_new,ord=2)) #inital guess vector
     residual = [1]
-    H = np.zeros((1,0))
-    Q = np.c_[q]
     for k in range(m):
         
         h,q = arnoldi_n(A, Q) #applying Arnold's iteration
