@@ -10,9 +10,6 @@ from os import listdir
 import matplotlib.pyplot as plt
 import numpy as np
 
-
-
-
 def calculate_grad(df):
     """function to calculate gradient du/dr"""
     """delta_r1 = df["r"].iloc[-1] - df["r"].iloc[-2]
@@ -50,7 +47,7 @@ def read_velocity_prof(element):
         vel_prof_df = pd.concat([vel_prof_df1,vel_prof_df2])
         vel_prof_df = laminar_velocity_profile(vel_prof_df)
     else:
-        vel_prof_df = pd.read_csv(req_file_path,skiprows=1, delimiter= "  ",float_precision=None)
+        vel_prof_df = pd.read_csv(req_file_path,skiprows=1, delimiter= "  ",engine="python",float_precision=None)
         vel_prof_df = vel_prof_df.rename(columns={vel_prof_df.columns[0]:"r"})
     return vel_prof_df
 
@@ -65,25 +62,36 @@ def plot_raw_velocity_profiles(element):
     plt.legend()
     return vel_prof_df
 
-def plot_uplus_yplus(element,grad_dict):
+    
+    
+def plot_uplus_yplus(element, grad_dict, logscale):
     vel_prof_df = read_velocity_prof(element) 
     wall_velocity_gradient = grad_dict[element][-1]
     vel_prof_df = calculate_u_plus(vel_prof_df,wall_velocity_gradient,element)
-    vel_prof_df = calculate_y_plus(vel_prof_df,element)
-    plt.plot(vel_prof_df["y_plus"],vel_prof_df["u_plus"],label=f"{element}")
-    plt.xscale("log")
-    plt.xlabel("log y+")
-    plt.ylabel("U+")
-    plt.legend()
-    
+    vel_prof_df = calculate_y_plus(vel_prof_df,element,wall_velocity_gradient)
+    dump = True
+    if dump == True:
+        vel_prof_df.to_csv(f"{element}_vel_profile_data.csv")
+    if logscale:
+        plt.plot(vel_prof_df["y_plus"],vel_prof_df["u_plus"],label=f"{element}")
+        plt.xscale("log")
+        plt.xlabel("log y+")
+        plt.ylabel("U+")
+        plt.legend()
+    else:
+        plt.plot(vel_prof_df["y_plus"],vel_prof_df["u_plus"],label=f"{element}")
+        plt.xlabel("y+")
+        plt.ylabel("U+")
+        plt.legend()        
 def calculate_u_plus(df,wall_velocity_gradient,element):
     req_u_wall = calculate_u_wall(wall_velocity_gradient, element)
     df["u_plus"] = df["uz(r)"]/req_u_wall
     return df
 
-def calculate_y_plus(df,Re_str):
+def calculate_y_plus(df,Re_str,wall_velocity_gradient):
     Re = int(Re_str[2:])
-    df["y_plus"] = (1 - df["r"])*df["u_plus"]*Re
+    req_u_wall = calculate_u_wall(wall_velocity_gradient, Re_str)
+    df["y_plus"] = (1 - df["r"])*req_u_wall*Re
     return df
     
 def return_wall_parameters(grad_dict,req_files):
@@ -91,9 +99,13 @@ def return_wall_parameters(grad_dict,req_files):
         wall_velocity_gradient = grad_dict[element][-1]
         friction_Re = calculate_friction_reynolds(wall_velocity_gradient,element)
         u_wall = calculate_u_wall(wall_velocity_gradient,element)
+        coeff_friction = calculate_coeff_friction(friction_Re,element)
+        blasius_coeff_friction = 0.0791*float(element[2:])**(-0.25)
         print(f"Wall velocity gradient for {element} is: {wall_velocity_gradient}")
         print(f"Wall velocity for {element} is: {u_wall}")
-        print(f"Friction Reynolds for {element} is: {friction_Re}\n")
+        print(f"Friction Reynolds for {element} is: {friction_Re}")
+        print(f"Coefficient of friction for {element} is: {coeff_friction}")
+        print(f"Coefficient of friction for {element}(Blasius) is: {blasius_coeff_friction}\n")
         
 def calculate_friction_reynolds(wall_vel_grad,Re_str):
     Re = int(Re_str[2:])
@@ -107,7 +119,11 @@ def calculate_u_wall(wall_velocity_gradient,Re_str):
     Re = int(Re_str[2:])
     return np.sqrt(wall_velocity_gradient/Re)
 
-
+def calculate_coeff_friction(friction_Re,Re_str):
+    Re = int(Re_str[2:])
+    coeff_friction = 8*((friction_Re/Re)**2)
+    return coeff_friction
+    
 if __name__ == "__main__":
     
     """the script needs to be in the same directory as DNS_pipe for the code to work"""
@@ -122,9 +138,10 @@ if __name__ == "__main__":
         vel_prof_df = plot_raw_velocity_profiles(element)
         grad_dict.update({element:calculate_grad(vel_prof_df)})
     plt.show()
-    plt.figure()
-    for element in req_files:
-        plot_uplus_yplus(element, grad_dict)
-    plt.show()
+    for i in [True,False]:
+        plt.figure()
+        for element in req_files:
+            plot_uplus_yplus(element, grad_dict, logscale=i)
+        plt.show()
     return_wall_parameters(grad_dict, req_files)
     
