@@ -57,6 +57,7 @@ def plot_raw_velocity_profiles(element):
     plt.plot(vel_prof_df["r"],vel_prof_df["uz(r)"],label=f"{element}")
     if element == "Re10000":
         plt.plot(vel_prof_df["r"],vel_prof_df["u_laminar"],label="u laminar")
+    plt.grid()
     plt.xlabel("r")
     plt.ylabel("uz(r)")
     plt.legend()
@@ -69,17 +70,19 @@ def plot_uplus_yplus(element, grad_dict, logscale):
     wall_velocity_gradient = grad_dict[element][-1]
     vel_prof_df = calculate_u_plus(vel_prof_df,wall_velocity_gradient,element)
     vel_prof_df = calculate_y_plus(vel_prof_df,element,wall_velocity_gradient)
-    dump = True
+    dump = False #set to true if data dump needed
     if dump == True:
         vel_prof_df.to_csv(f"{element}_vel_profile_data.csv")
     if logscale:
         plt.plot(vel_prof_df["y_plus"],vel_prof_df["u_plus"],label=f"{element}")
+        plt.grid()
         plt.xscale("log")
         plt.xlabel("log y+")
         plt.ylabel("U+")
         plt.legend()
     else:
         plt.plot(vel_prof_df["y_plus"],vel_prof_df["u_plus"],label=f"{element}")
+        plt.grid()
         plt.xlabel("y+")
         plt.ylabel("U+")
         plt.legend()        
