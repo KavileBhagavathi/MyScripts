@@ -1,0 +1,501 @@
+### Starting TaskPrologue of job 1743329 on a0905 at Wed Jun 19 23:02:10 CEST 2024
+Running on cores 0-15 with governor ondemand
+Wed Jun 19 23:02:10 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:0E:00.0 Off |                    0 |
+| N/A   35C    P0             55W /  400W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 19 23:03:58 CEST 2024
+= Job-ID             : 1743329 on alex
+= Job-Name           : job_vararray.sh
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment5/job_vararray.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment5
+= Queue/Partition    : a100
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:01:50
+= Total RAM usage    : 0.0 GiB of assigned  GiB (%)
+= Node list          : a0905
+= Subm/Elig/Start/End: 2024-06-19T23:02:08 / 2024-06-19T23:02:08 / 2024-06-19T23:02:08 / 2024-06-19T23:03:58
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2067.6M   104.9G   209.7G        N/A   8,975      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 356706, 0 %, 0 %, 416 MiB, 359 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 356746, 0 %, 0 %, 416 MiB, 317 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 356784, 0 %, 0 %, 416 MiB, 325 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 356823, 0 %, 0 %, 416 MiB, 314 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 356861, 0 %, 0 %, 416 MiB, 344 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 356901, 0 %, 0 %, 416 MiB, 312 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 356941, 0 %, 0 %, 416 MiB, 314 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 356979, 0 %, 0 %, 416 MiB, 319 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357018, 0 %, 0 %, 416 MiB, 320 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357056, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357095, 0 %, 0 %, 416 MiB, 318 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357134, 0 %, 0 %, 416 MiB, 318 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357173, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357211, 0 %, 0 %, 416 MiB, 314 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357249, 0 %, 0 %, 416 MiB, 314 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357293, 0 %, 0 %, 416 MiB, 315 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357331, 0 %, 0 %, 416 MiB, 315 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357369, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357408, 0 %, 0 %, 416 MiB, 320 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357446, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357484, 0 %, 0 %, 416 MiB, 318 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357522, 0 %, 0 %, 416 MiB, 322 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357560, 0 %, 0 %, 416 MiB, 313 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357598, 0 %, 0 %, 416 MiB, 319 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357637, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357675, 0 %, 0 %, 416 MiB, 430 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357714, 0 %, 0 %, 416 MiB, 1920 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357754, 0 %, 0 %, 416 MiB, 739 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357808, 0 %, 0 %, 416 MiB, 319 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357846, 0 %, 0 %, 416 MiB, 321 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357884, 0 %, 0 %, 416 MiB, 318 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357922, 0 %, 0 %, 416 MiB, 323 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357960, 0 %, 0 %, 416 MiB, 322 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 357999, 0 %, 0 %, 416 MiB, 313 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358037, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358075, 0 %, 0 %, 416 MiB, 311 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358113, 0 %, 0 %, 416 MiB, 313 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358151, 0 %, 0 %, 416 MiB, 313 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358189, 0 %, 0 %, 416 MiB, 318 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358228, 0 %, 0 %, 416 MiB, 324 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358266, 0 %, 0 %, 416 MiB, 321 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358304, 0 %, 0 %, 416 MiB, 319 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358343, 0 %, 0 %, 416 MiB, 420 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358381, 0 %, 0 %, 416 MiB, 318 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358419, 0 %, 0 %, 416 MiB, 319 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358458, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358496, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358534, 0 %, 0 %, 416 MiB, 312 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358572, 0 %, 0 %, 416 MiB, 317 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358626, 0 %, 0 %, 416 MiB, 310 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358664, 0 %, 0 %, 416 MiB, 315 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358703, 0 %, 0 %, 416 MiB, 312 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358742, 0 %, 0 %, 416 MiB, 321 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358780, 0 %, 0 %, 416 MiB, 315 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358819, 0 %, 0 %, 416 MiB, 317 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358857, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358895, 0 %, 0 %, 416 MiB, 315 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358933, 0 %, 0 %, 416 MiB, 333 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 358972, 0 %, 0 %, 416 MiB, 321 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359010, 0 %, 0 %, 416 MiB, 313 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359048, 0 %, 0 %, 416 MiB, 317 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359086, 0 %, 0 %, 416 MiB, 321 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359124, 0 %, 0 %, 416 MiB, 316 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359162, 0 %, 0 %, 416 MiB, 374 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359201, 0 %, 0 %, 418 MiB, 317 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359240, 0 %, 0 %, 418 MiB, 2592 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359279, 0 %, 0 %, 418 MiB, 378 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359317, 0 %, 0 %, 418 MiB, 313 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359355, 0 %, 0 %, 422 MiB, 314 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359393, 0 %, 0 %, 422 MiB, 311 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359431, 0 %, 0 %, 422 MiB, 315 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359469, 0 %, 0 %, 422 MiB, 321 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359508, 0 %, 0 %, 426 MiB, 317 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359546, 0 %, 0 %, 426 MiB, 321 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359584, 0 %, 0 %, 430 MiB, 323 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359622, 0 %, 0 %, 430 MiB, 319 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359660, 0 %, 0 %, 434 MiB, 326 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359698, 0 %, 0 %, 438 MiB, 329 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359737, 0 %, 0 %, 442 MiB, 329 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359775, 0 %, 0 %, 450 MiB, 436 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359813, 0 %, 0 %, 454 MiB, 333 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359851, 0 %, 0 %, 462 MiB, 343 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359889, 0 %, 0 %, 474 MiB, 344 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359927, 0 %, 0 %, 486 MiB, 357 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 359966, 0 %, 0 %, 498 MiB, 361 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360004, 1 %, 0 %, 514 MiB, 382 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360042, 0 %, 0 %, 534 MiB, 392 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360080, 0 %, 0 %, 558 MiB, 400 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360118, 0 %, 0 %, 586 MiB, 404 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360156, 0 %, 0 %, 622 MiB, 438 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360195, 0 %, 0 %, 662 MiB, 489 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360233, 0 %, 0 %, 710 MiB, 512 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360271, 0 %, 0 %, 770 MiB, 531 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360309, 2 %, 0 %, 838 MiB, 533 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360348, 0 %, 0 %, 922 MiB, 572 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360386, 0 %, 0 %, 1026 MiB, 600 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360424, 0 %, 0 %, 1146 MiB, 786 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360463, 0 %, 0 %, 1294 MiB, 791 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360502, 6 %, 1 %, 1470 MiB, 878 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360540, 0 %, 0 %, 1678 MiB, 978 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360579, 10 %, 3 %, 1934 MiB, 1069 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360617, 0 %, 0 %, 2234 MiB, 1179 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360655, 5 %, 1 %, 2598 MiB, 1336 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360694, 0 %, 0 %, 3038 MiB, 1561 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360732, 0 %, 0 %, 3562 MiB, 1871 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360771, 0 %, 0 %, 4190 MiB, 2082 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360810, 10 %, 4 %, 4946 MiB, 2420 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360850, 13 %, 4 %, 5850 MiB, 2854 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360889, 10 %, 3 %, 6938 MiB, 3818 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360946, 12 %, 4 %, 8242 MiB, 3966 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 360987, 14 %, 5 %, 9806 MiB, 4775 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 361042, 11 %, 4 %, 11682 MiB, 5608 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 361082, 12 %, 4 %, 13938 MiB, 6627 ms
+NVIDIA A100-SXM4-40GB, 00000000:0E:00.0, 361124, 12 %, 4 %, 16642 MiB, 7930 ms

@@ -1,0 +1,62 @@
+### Starting TaskPrologue of job 1345652 on f0308 at Wed Jun 12 23:33:20 CEST 2024
+#   SLURM_JOB_NODELIST=f0308
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running omp benchmark for 1 threads
+slurmstepd: error: execve(): /home/hpc/ptfs/ptfs288h/ptfs/assignment4/./stream: No such file or directory
+srun: error: f0308: task 0: Exited with exit code 2
+srun: Terminating StepId=1345652.0
+Running omp benchmark for 2 threads
+slurmstepd: error: execve(): /home/hpc/ptfs/ptfs288h/ptfs/assignment4/./stream: No such file or directory
+srun: error: f0308: task 0: Exited with exit code 2
+srun: Terminating StepId=1345652.1
+Running omp benchmark for 4 threads
+slurmstepd: error: execve(): /home/hpc/ptfs/ptfs288h/ptfs/assignment4/./stream: No such file or directory
+srun: error: f0308: task 0: Exited with exit code 2
+srun: Terminating StepId=1345652.2
+Running omp benchmark for 8 threads
+slurmstepd: error: execve(): /home/hpc/ptfs/ptfs288h/ptfs/assignment4/./stream: No such file or directory
+srun: error: f0308: task 0: Exited with exit code 2
+srun: Terminating StepId=1345652.3
+Running omp benchmark for 12 threads
+slurmstepd: error: execve(): /home/hpc/ptfs/ptfs288h/ptfs/assignment4/./stream: No such file or directory
+srun: error: f0308: task 0: Exited with exit code 2
+srun: Terminating StepId=1345652.4
+Running omp benchmark for 14 threads
+slurmstepd: error: execve(): /home/hpc/ptfs/ptfs288h/ptfs/assignment4/./stream: No such file or directory
+srun: error: f0308: task 0: Exited with exit code 2
+srun: Terminating StepId=1345652.5
+Running omp benchmark for 16 threads
+slurmstepd: error: execve(): /home/hpc/ptfs/ptfs288h/ptfs/assignment4/./stream: No such file or directory
+srun: error: f0308: task 0: Exited with exit code 2
+srun: Terminating StepId=1345652.6
+Running omp benchmark for 18 threads
+slurmstepd: error: execve(): /home/hpc/ptfs/ptfs288h/ptfs/assignment4/./stream: No such file or directory
+srun: error: f0308: task 0: Exited with exit code 2
+srun: Terminating StepId=1345652.7
+  adding: streamomp (deflated 59%)
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 12 23:33:31 CEST 2024
+= Job-ID             : 1345652 on fritz
+= Job-Name           : streamtriadomp
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment4/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment4
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:14
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0308
+= Subm/Elig/Start/End: 2024-06-12T23:33:16 / 2024-06-12T23:33:16 / 2024-06-12T23:33:17 / 2024-06-12T23:33:31
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1629.4M   104.9G   209.7G        N/A   7,028      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

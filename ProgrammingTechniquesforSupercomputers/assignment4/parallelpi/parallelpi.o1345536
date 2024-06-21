@@ -1,0 +1,101 @@
+### Starting TaskPrologue of job 1345536 on f0942 at Wed Jun 12 22:18:54 CEST 2024
+#   SLURM_JOB_NODELIST=f0942
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 5 threads
+Running benchmark for 6 threads
+Running benchmark for 7 threads
+Running benchmark for 8 threads
+Running benchmark for 9 threads
+Running benchmark for 10 threads
+Running benchmark for 11 threads
+Running benchmark for 12 threads
+Running benchmark for 13 threads
+Running benchmark for 14 threads
+Running benchmark for 15 threads
+Running benchmark for 16 threads
+Running benchmark for 17 threads
+Running benchmark for 18 threads
+Running benchmark for 19 threads
+Running benchmark for 20 threads
+Running benchmark for 21 threads
+Running benchmark for 22 threads
+Running benchmark for 23 threads
+Running benchmark for 24 threads
+Running benchmark for 25 threads
+Running benchmark for 26 threads
+Running benchmark for 27 threads
+Running benchmark for 28 threads
+Running benchmark for 29 threads
+Running benchmark for 30 threads
+Running benchmark for 31 threads
+Running benchmark for 32 threads
+Running benchmark for 33 threads
+Running benchmark for 34 threads
+Running benchmark for 35 threads
+Running benchmark for 36 threads
+  adding: piompperf1.txt (stored 0%)
+  adding: piompperf10.txt (stored 0%)
+  adding: piompperf11.txt (stored 0%)
+  adding: piompperf12.txt (stored 0%)
+  adding: piompperf13.txt (stored 0%)
+  adding: piompperf14.txt (stored 0%)
+  adding: piompperf15.txt (stored 0%)
+  adding: piompperf16.txt (stored 0%)
+  adding: piompperf17.txt (stored 0%)
+  adding: piompperf18.txt (stored 0%)
+  adding: piompperf19.txt (stored 0%)
+  adding: piompperf2.txt (stored 0%)
+  adding: piompperf20.txt (stored 0%)
+  adding: piompperf21.txt (stored 0%)
+  adding: piompperf22.txt (stored 0%)
+  adding: piompperf23.txt (stored 0%)
+  adding: piompperf24.txt (stored 0%)
+  adding: piompperf25.txt (deflated 2%)
+  adding: piompperf26.txt (stored 0%)
+  adding: piompperf27.txt (stored 0%)
+  adding: piompperf28.txt (stored 0%)
+  adding: piompperf29.txt (stored 0%)
+  adding: piompperf3.txt (stored 0%)
+  adding: piompperf30.txt (stored 0%)
+  adding: piompperf31.txt (stored 0%)
+  adding: piompperf32.txt (stored 0%)
+  adding: piompperf33.txt (stored 0%)
+  adding: piompperf34.txt (stored 0%)
+  adding: piompperf35.txt (stored 0%)
+  adding: piompperf36.txt (stored 0%)
+  adding: piompperf4.txt (stored 0%)
+  adding: piompperf5.txt (stored 0%)
+  adding: piompperf6.txt (stored 0%)
+  adding: piompperf7.txt (stored 0%)
+  adding: piompperf8.txt (stored 0%)
+  adding: piompperf9.txt (stored 0%)
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 12 22:20:07 CEST 2024
+= Job-ID             : 1345536 on fritz
+= Job-Name           : parallelpi
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment4/parallelpi/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment4/parallelpi
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:01:16
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0942
+= Subm/Elig/Start/End: 2024-06-12T22:18:50 / 2024-06-12T22:18:50 / 2024-06-12T22:18:51 / 2024-06-12T22:20:07
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1629.6M   104.9G   209.7G        N/A   7,070      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

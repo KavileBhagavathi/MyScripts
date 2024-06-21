@@ -1,0 +1,72 @@
+### Starting TaskPrologue of job 1743319 on a0905 at Wed Jun 19 22:57:13 CEST 2024
+Running on cores 0-15 with governor ondemand
+Wed Jun 19 22:57:14 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:0E:00.0 Off |                    0 |
+| N/A   36C    P0             55W /  400W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+rm: cannot remove 'cudavararrop.txt': No such file or directory
+1.2
+1.44
+1.728
+2.0736
+2.48832
+2.985984
+3.5831808
+4.29981696
+5.159780352
+6.1917364224
+7.43008370688
+8.916100448256
+10.6993205379072
+12.83918464548864
+15.407021574586368
+18.4884258895036416
+22.18611106740436992
+26.623333280885243904
+31.9479999370622926848
+38.33759992447475122176
+46.00511990936970146611
+55.20614389124364175933
+66.24737266949237011119
+79.49684720339084413342
+95.39621664406901296010
+114.47545997288281555212
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 19 22:57:16 CEST 2024
+= Job-ID             : 1743319 on alex
+= Job-Name           : job_vararray.sh
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment5/job_vararray.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment5
+= Queue/Partition    : a100
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:05
+= Total RAM usage    : 0.0 GiB of assigned  GiB (%)
+= Node list          : a0905
+= Subm/Elig/Start/End: 2024-06-19T22:57:11 / 2024-06-19T22:57:11 / 2024-06-19T22:57:11 / 2024-06-19T22:57:16
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2034.8M   104.9G   209.7G        N/A   8,971      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]

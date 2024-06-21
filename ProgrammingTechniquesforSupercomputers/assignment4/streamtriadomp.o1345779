@@ -1,0 +1,46 @@
+### Starting TaskPrologue of job 1345779 on f1254 at Thu Jun 13 00:23:15 CEST 2024
+#   SLURM_JOB_NODELIST=f1254
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running omp benchmark for 1 threads
+Running omp benchmark for 2 threads
+Running omp benchmark for 4 threads
+Running omp benchmark for 8 threads
+Running omp benchmark for 12 threads
+Running omp benchmark for 14 threads
+Running omp benchmark for 16 threads
+Running omp benchmark for 18 threads
+updating: streamnoomp (deflated 57%)
+  adding: streamnoomp1.txt (deflated 61%)
+  adding: streamnoomp12.txt (deflated 62%)
+  adding: streamnoomp14.txt (deflated 62%)
+  adding: streamnoomp16.txt (deflated 61%)
+  adding: streamnoomp18.txt (deflated 62%)
+  adding: streamnoomp2.txt (deflated 61%)
+  adding: streamnoomp4.txt (deflated 60%)
+  adding: streamnoomp8.txt (deflated 61%)
+=== JOB_STATISTICS ===
+=== current date     : Thu Jun 13 00:30:48 CEST 2024
+= Job-ID             : 1345779 on fritz
+= Job-Name           : streamtriadomp
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment4/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment4
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:07:36
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f1254
+= Subm/Elig/Start/End: 2024-06-13T00:23:11 / 2024-06-13T00:23:11 / 2024-06-13T00:23:12 / 2024-06-13T00:30:48
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1629.6M   104.9G   209.7G        N/A   7,052      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

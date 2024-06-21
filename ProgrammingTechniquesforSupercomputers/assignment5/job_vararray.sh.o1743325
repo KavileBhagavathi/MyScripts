@@ -1,0 +1,150 @@
+### Starting TaskPrologue of job 1743325 on a0905 at Wed Jun 19 23:00:13 CEST 2024
+Running on cores 16-31 with governor ondemand
+Wed Jun 19 23:00:13 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-40GB          On  |   00000000:13:00.0 Off |                    0 |
+| N/A   35C    P0             55W /  400W |       1MiB /  40960MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+rm: cannot remove 'cudavararrop.txt': No such file or directory
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+Allocated host memory.
+Allocated device memory.
+Assertion success!
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 19 23:00:35 CEST 2024
+= Job-ID             : 1743325 on alex
+= Job-Name           : job_vararray.sh
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment5/job_vararray.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment5
+= Queue/Partition    : a100
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:24
+= Total RAM usage    : 0.0 GiB of assigned  GiB (%)
+= Node list          : a0905
+= Subm/Elig/Start/End: 2024-06-19T23:00:11 / 2024-06-19T23:00:11 / 2024-06-19T23:00:11 / 2024-06-19T23:00:35
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2034.7M   104.9G   209.7G        N/A   8,973      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 353840, 0 %, 0 %, 416 MiB, 559 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 353879, 0 %, 0 %, 416 MiB, 366 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 353951, 0 %, 0 %, 416 MiB, 452 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 353989, 0 %, 0 %, 416 MiB, 354 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354062, 0 %, 0 %, 416 MiB, 524 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354118, 0 %, 0 %, 416 MiB, 333 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354172, 0 %, 0 %, 416 MiB, 486 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354228, 0 %, 0 %, 416 MiB, 333 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354282, 0 %, 0 %, 416 MiB, 480 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354339, 0 %, 0 %, 416 MiB, 462 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354393, 0 %, 0 %, 416 MiB, 535 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354457, 0 %, 0 %, 416 MiB, 625 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354511, 0 %, 0 %, 416 MiB, 539 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354568, 0 %, 0 %, 416 MiB, 629 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354622, 0 %, 0 %, 416 MiB, 883 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354695, 0 %, 0 %, 416 MiB, 1618 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354768, 0 %, 0 %, 416 MiB, 1346 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354841, 0 %, 0 %, 416 MiB, 474 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354895, 0 %, 0 %, 416 MiB, 543 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 354952, 0 %, 0 %, 416 MiB, 591 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 355006, 0 %, 0 %, 416 MiB, 553 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 355062, 0 %, 0 %, 416 MiB, 624 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 355116, 0 %, 0 %, 416 MiB, 446 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 355189, 0 %, 0 %, 416 MiB, 510 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 355227, 0 %, 0 %, 416 MiB, 340 ms
+NVIDIA A100-SXM4-40GB, 00000000:13:00.0, 355298, 0 %, 0 %, 416 MiB, 537 ms

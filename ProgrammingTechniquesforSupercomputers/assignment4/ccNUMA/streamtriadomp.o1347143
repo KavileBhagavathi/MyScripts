@@ -1,0 +1,122 @@
+### Starting TaskPrologue of job 1347143 on f1214 at Thu Jun 13 07:23:00 CEST 2024
+#   SLURM_JOB_NODELIST=f1214
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
+Running omp benchmark for 0 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 0: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.0
+Running omp benchmark for 1 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 1: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.1
+Running omp benchmark for 2 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 2: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.2
+Running omp benchmark for 3 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 3: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.3
+Running omp benchmark for 4 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 4: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.4
+Running omp benchmark for 5 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 5: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.5
+Running omp benchmark for 6 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 6: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.6
+Running omp benchmark for 7 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 7: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.7
+Running omp benchmark for 8 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 8: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.8
+Running omp benchmark for 9 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 9: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.9
+Running omp benchmark for 10 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 10: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.10
+Running omp benchmark for 11 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 11: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.11
+Running omp benchmark for 12 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 12: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.12
+Running omp benchmark for 13 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 13: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.13
+Running omp benchmark for 14 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 14: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.14
+Running omp benchmark for 15 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 15: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.15
+Running omp benchmark for 16 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 16: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.16
+Running omp benchmark for 17 threads
+/var/tmp/slurmd_spool/job1347143/slurm_script: line 21: 17: command not found
+Failed to parse cpulist M0:0-
+srun: error: f1214: task 0: Exited with exit code 1
+srun: Terminating StepId=1347143.17
+updating: streamnuma (deflated 68%)
+=== JOB_STATISTICS ===
+=== current date     : Thu Jun 13 07:23:24 CEST 2024
+= Job-ID             : 1347143 on fritz
+= Job-Name           : streamtriadomp
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment4/ccNUMA/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment4/ccNUMA
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:27
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f1214
+= Subm/Elig/Start/End: 2024-06-13T07:22:49 / 2024-06-13T07:22:49 / 2024-06-13T07:22:56 / 2024-06-13T07:23:23
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1630.1M   104.9G   209.7G        N/A   7,069      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

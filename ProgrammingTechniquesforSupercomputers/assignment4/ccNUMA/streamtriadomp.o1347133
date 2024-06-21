@@ -1,0 +1,33 @@
+### Starting TaskPrologue of job 1347133 on f0578 at Thu Jun 13 07:21:55 CEST 2024
+#   SLURM_JOB_NODELIST=f0578
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
+/var/tmp/slurmd_spool/job1347133/slurm_script: line 21: syntax error near unexpected token `('
+/var/tmp/slurmd_spool/job1347133/slurm_script: line 21: `    srun --cpu-freq=2000000-2000000 likwid-pin -c M0:0-($threads) ./cstreamnuma $threads'
+=== JOB_STATISTICS ===
+=== current date     : Thu Jun 13 07:21:57 CEST 2024
+= Job-ID             : 1347133 on fritz
+= Job-Name           : streamtriadomp
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment4/ccNUMA/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment4/ccNUMA
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:05
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0578
+= Subm/Elig/Start/End: 2024-06-13T07:21:51 / 2024-06-13T07:21:51 / 2024-06-13T07:21:52 / 2024-06-13T07:21:57
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1597.3M   104.9G   209.7G        N/A   7,065      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
