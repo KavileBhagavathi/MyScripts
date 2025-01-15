@@ -1,0 +1,33 @@
+### Starting TaskPrologue of job 1368442 on f1253 at Thu Jun 27 08:08:54 CEST 2024
+#   SLURM_JOB_NODELIST=f1253
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running benchmark for 1 threads
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 1368442.0 ON f1253 CANCELLED AT 2024-06-27T08:08:59 ***
+slurmstepd: error: *** JOB 1368442 ON f1253 CANCELLED AT 2024-06-27T08:08:59 ***
+=== JOB_STATISTICS ===
+=== current date     : Thu Jun 27 08:09:02 CEST 2024
+= Job-ID             : 1368442 on fritz
+= Job-Name           : raytrace
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/parallelray/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/parallelray
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:07
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f1253
+= Subm/Elig/Start/End: 2024-06-27T08:08:49 / 2024-06-27T08:08:49 / 2024-06-27T08:08:52 / 2024-06-27T08:08:59
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2970.9M   104.9G   209.7G        N/A   9,279      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

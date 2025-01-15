@@ -1,0 +1,52 @@
+### Starting TaskPrologue of job 1365372 on f1254 at Tue Jun 25 22:58:19 CEST 2024
+#   SLURM_JOB_NODELIST=f1254
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+parallelpi.c:41:5: error: use of undeclared identifier 'performance'
+    performance = (5.0*slices)/(wcTimeEnd-wcTimeStart);
+    ^
+parallelpi.c:44:24: error: use of undeclared identifier 'performance'
+    fprintf(fptr,"%f,",performance);
+                       ^
+2 errors generated.
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 1365372 ON f1254 CANCELLED AT 2024-06-25T22:59:08 ***
+slurmstepd: error: *** STEP 1365372.12 ON f1254 CANCELLED AT 2024-06-25T22:59:08 ***
+=== JOB_STATISTICS ===
+=== current date     : Tue Jun 25 22:59:11 CEST 2024
+= Job-ID             : 1365372 on fritz
+= Job-Name           : parallelpi
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment7
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:52
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f1254
+= Subm/Elig/Start/End: 2024-06-25T22:58:16 / 2024-06-25T22:58:16 / 2024-06-25T22:58:16 / 2024-06-25T22:59:08
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2123.1M   104.9G   209.7G        N/A   9,173      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

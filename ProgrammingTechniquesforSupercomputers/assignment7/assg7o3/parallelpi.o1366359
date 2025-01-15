@@ -1,0 +1,354 @@
+### Starting TaskPrologue of job 1366359 on f1066 at Wed Jun 26 14:29:19 CEST 2024
+#   SLURM_JOB_NODELIST=f1066
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.0
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.1
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.2
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.3
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.4
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.5
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.6
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.7
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.8
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.9
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.10
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.11
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.12
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.13
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.14
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.15
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.16
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.17
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.18
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.19
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.20
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.21
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.22
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.23
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.24
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.25
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.26
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.27
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.28
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.29
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.30
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.31
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.32
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.33
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.34
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.35
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 1 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.36
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 2 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.37
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 3 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.38
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+Running benchmark for 4 threads
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+srun: error: f1066: task 0: Exited with exit code 1
+srun: Terminating StepId=1366359.39
+ERROR - [/apps/FAUsrc-EL8/likwid/likwid-5.3.0/src/perfmon.c:perfmon_init:2012] Access to performance monitoring registers locked
+
+zip error: Nothing to do! (zippiompo3.zip)
+rm: cannot remove 'piomp*': No such file or directory
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 26 14:30:51 CEST 2024
+= Job-ID             : 1366359 on fritz
+= Job-Name           : parallelpi
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/assg7o3/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/assg7o3
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:01:38
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f1066
+= Subm/Elig/Start/End: 2024-06-26T14:29:12 / 2024-06-26T14:29:12 / 2024-06-26T14:29:13 / 2024-06-26T14:30:51
+======================
+=== Quota infos ======
+/usr/bin/shownicerquota.pl: timeout running quota command - quota data will be incomplete.
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

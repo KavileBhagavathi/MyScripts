@@ -1,0 +1,245 @@
+### Starting TaskPrologue of job 1367180 on f0370 at Wed Jun 26 22:41:58 CEST 2024
+#   SLURM_JOB_NODELIST=f0370
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running benchmark for 1 threads
+Time: 65.171612
+Running benchmark for 2 threads
+Time: 38.625169
+Running benchmark for 3 threads
+Time: 26.517001
+Running benchmark for 4 threads
+Time: 26.518390
+Running benchmark for 5 threads
+Time: 26.517362
+Running benchmark for 6 threads
+Time: 26.515804
+Running benchmark for 7 threads
+Time: 26.523322
+Running benchmark for 8 threads
+Time: 26.517692
+Running benchmark for 9 threads
+Time: 26.519464
+Running benchmark for 10 threads
+Time: 26.520544
+Running benchmark for 11 threads
+Time: 26.519080
+Running benchmark for 12 threads
+Time: 26.521351
+Running benchmark for 13 threads
+Time: 26.504068
+Running benchmark for 14 threads
+Time: 26.520853
+Running benchmark for 15 threads
+Time: 26.507059
+Running benchmark for 16 threads
+Time: 26.647587
+Running benchmark for 17 threads
+Time: 26.519936
+Running benchmark for 18 threads
+Time: 26.524552
+Running benchmark for 19 threads
+Time: 26.517564
+Running benchmark for 20 threads
+Time: 26.520482
+Running benchmark for 21 threads
+Time: 26.519936
+Running benchmark for 22 threads
+Time: 26.523971
+Running benchmark for 23 threads
+Time: 26.505717
+Running benchmark for 24 threads
+Time: 26.568809
+Running benchmark for 25 threads
+Time: 26.507770
+Running benchmark for 26 threads
+Time: 26.521048
+Running benchmark for 27 threads
+Time: 26.511805
+Running benchmark for 28 threads
+Time: 26.523281
+Running benchmark for 29 threads
+Time: 26.520209
+Running benchmark for 30 threads
+Time: 26.525151
+Running benchmark for 31 threads
+Time: 26.526331
+Running benchmark for 32 threads
+Time: 26.524410
+Running benchmark for 33 threads
+Time: 26.520230
+Running benchmark for 34 threads
+Time: 26.523822
+Running benchmark for 35 threads
+Time: 26.524833
+Running benchmark for 36 threads
+Time: 26.521984
+Running benchmark for 37 threads
+Time: 26.525666
+Running benchmark for 38 threads
+Time: 26.524026
+Running benchmark for 39 threads
+Time: 26.523128
+Running benchmark for 40 threads
+Time: 26.523934
+Running benchmark for 41 threads
+Time: 26.521502
+Running benchmark for 42 threads
+Time: 26.520030
+Running benchmark for 43 threads
+Time: 26.521587
+Running benchmark for 44 threads
+Time: 26.556777
+Running benchmark for 45 threads
+Time: 26.527058
+Running benchmark for 46 threads
+Time: 26.523724
+Running benchmark for 47 threads
+Time: 26.555387
+Running benchmark for 48 threads
+Time: 26.526628
+Running benchmark for 49 threads
+Time: 26.525558
+Running benchmark for 50 threads
+Time: 26.531614
+Running benchmark for 51 threads
+Time: 26.524917
+Running benchmark for 52 threads
+Time: 26.528604
+Running benchmark for 53 threads
+Time: 26.523910
+Running benchmark for 54 threads
+Time: 26.525747
+Running benchmark for 55 threads
+Time: 26.524659
+Running benchmark for 56 threads
+Time: 26.533384
+Running benchmark for 57 threads
+Time: 26.523559
+Running benchmark for 58 threads
+Time: 26.525494
+Running benchmark for 59 threads
+Time: 26.532736
+Running benchmark for 60 threads
+Time: 26.524002
+Running benchmark for 61 threads
+Time: 26.531315
+Running benchmark for 62 threads
+Time: 26.529189
+Running benchmark for 63 threads
+Time: 26.527686
+Running benchmark for 64 threads
+Time: 26.526488
+Running benchmark for 65 threads
+Time: 26.544096
+Running benchmark for 66 threads
+Time: 26.523962
+Running benchmark for 67 threads
+Time: 26.526063
+Running benchmark for 68 threads
+Time: 26.531267
+Running benchmark for 69 threads
+Time: 26.526969
+Running benchmark for 70 threads
+Time: 26.527427
+Running benchmark for 71 threads
+Time: 26.524319
+Running benchmark for 72 threads
+Time: 26.531537
+  adding: raytrace_core1.txt (deflated 2%)
+  adding: raytrace_core10.txt (deflated 3%)
+  adding: raytrace_core11.txt (deflated 3%)
+  adding: raytrace_core12.txt (deflated 3%)
+  adding: raytrace_core13.txt (deflated 3%)
+  adding: raytrace_core14.txt (deflated 3%)
+  adding: raytrace_core15.txt (deflated 3%)
+  adding: raytrace_core16.txt (deflated 3%)
+  adding: raytrace_core17.txt (deflated 3%)
+  adding: raytrace_core18.txt (deflated 3%)
+  adding: raytrace_core19.txt (deflated 3%)
+  adding: raytrace_core2.txt (deflated 5%)
+  adding: raytrace_core20.txt (deflated 3%)
+  adding: raytrace_core21.txt (deflated 3%)
+  adding: raytrace_core22.txt (deflated 3%)
+  adding: raytrace_core23.txt (deflated 3%)
+  adding: raytrace_core24.txt (deflated 3%)
+  adding: raytrace_core25.txt (deflated 3%)
+  adding: raytrace_core26.txt (deflated 3%)
+  adding: raytrace_core27.txt (deflated 3%)
+  adding: raytrace_core28.txt (deflated 3%)
+  adding: raytrace_core29.txt (deflated 3%)
+  adding: raytrace_core3.txt (deflated 3%)
+  adding: raytrace_core30.txt (deflated 3%)
+  adding: raytrace_core31.txt (deflated 3%)
+  adding: raytrace_core32.txt (deflated 3%)
+  adding: raytrace_core33.txt (deflated 3%)
+  adding: raytrace_core34.txt (deflated 3%)
+  adding: raytrace_core35.txt (deflated 3%)
+  adding: raytrace_core36.txt (deflated 3%)
+  adding: raytrace_core37.txt (deflated 3%)
+  adding: raytrace_core38.txt (deflated 3%)
+  adding: raytrace_core39.txt (deflated 3%)
+  adding: raytrace_core4.txt (deflated 3%)
+  adding: raytrace_core40.txt (deflated 3%)
+  adding: raytrace_core41.txt (deflated 3%)
+  adding: raytrace_core42.txt (deflated 3%)
+  adding: raytrace_core43.txt (deflated 3%)
+  adding: raytrace_core44.txt (deflated 3%)
+  adding: raytrace_core45.txt (deflated 3%)
+  adding: raytrace_core46.txt (deflated 3%)
+  adding: raytrace_core47.txt (deflated 3%)
+  adding: raytrace_core48.txt (deflated 3%)
+  adding: raytrace_core49.txt (deflated 3%)
+  adding: raytrace_core5.txt (deflated 3%)
+  adding: raytrace_core50.txt (deflated 3%)
+  adding: raytrace_core51.txt (deflated 3%)
+  adding: raytrace_core52.txt (deflated 3%)
+  adding: raytrace_core53.txt (deflated 3%)
+  adding: raytrace_core54.txt (deflated 3%)
+  adding: raytrace_core55.txt (deflated 3%)
+  adding: raytrace_core56.txt (deflated 3%)
+  adding: raytrace_core57.txt (deflated 3%)
+  adding: raytrace_core58.txt (deflated 3%)
+  adding: raytrace_core59.txt (deflated 3%)
+  adding: raytrace_core6.txt (deflated 3%)
+  adding: raytrace_core60.txt (deflated 3%)
+  adding: raytrace_core61.txt (deflated 3%)
+  adding: raytrace_core62.txt (deflated 3%)
+  adding: raytrace_core63.txt (deflated 3%)
+  adding: raytrace_core64.txt (deflated 3%)
+  adding: raytrace_core65.txt (deflated 3%)
+  adding: raytrace_core66.txt (deflated 3%)
+  adding: raytrace_core67.txt (deflated 3%)
+  adding: raytrace_core68.txt (deflated 3%)
+  adding: raytrace_core69.txt (deflated 3%)
+  adding: raytrace_core7.txt (deflated 3%)
+  adding: raytrace_core70.txt (deflated 3%)
+  adding: raytrace_core71.txt (deflated 3%)
+  adding: raytrace_core72.txt (deflated 3%)
+  adding: raytrace_core8.txt (deflated 3%)
+  adding: raytrace_core9.txt (deflated 3%)
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 26 23:22:49 CEST 2024
+= Job-ID             : 1367180 on fritz
+= Job-Name           : raytrace
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/parallelray/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/parallelray
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:40:53
+= Total RAM usage    : 0.2 GiB 
+= Node list          : f0370
+= Subm/Elig/Start/End: 2024-06-26T22:41:54 / 2024-06-26T22:41:54 / 2024-06-26T22:41:55 / 2024-06-26T23:22:48
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         3068.8M   104.9G   209.7G        N/A   9,289      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

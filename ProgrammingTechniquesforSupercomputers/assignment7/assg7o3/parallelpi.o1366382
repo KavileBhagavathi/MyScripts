@@ -1,0 +1,61 @@
+### Starting TaskPrologue of job 1366382 on f0375 at Wed Jun 26 14:40:00 CEST 2024
+#   SLURM_JOB_NODELIST=f0375
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
+--------------------------------------------------------------------------------
+CPU name:	Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+CPU type:	Intel Icelake SP processor
+CPU clock:	2.39 GHz
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group 1: DATA
++-----------------------------+---------+-------------+
+|            Event            | Counter |  HWThread 0 |
++-----------------------------+---------+-------------+
+|      INSTR_RETIRED_ANY      |  FIXC0  |  7502186769 |
+|    CPU_CLK_UNHALTED_CORE    |  FIXC1  |  6004512797 |
+|     CPU_CLK_UNHALTED_REF    |  FIXC2  |  7205765376 |
+|        TOPDOWN_SLOTS        |  FIXC3  | 30022563985 |
+|  MEM_INST_RETIRED_ALL_LOADS |   PMC0  |      479116 |
+| MEM_INST_RETIRED_ALL_STORES |   PMC1  |      178660 |
++-----------------------------+---------+-------------+
+
++----------------------+------------+
+|        Metric        | HWThread 0 |
++----------------------+------------+
+|  Runtime (RDTSC) [s] |     3.0299 |
+| Runtime unhalted [s] |     2.5078 |
+|      Clock [MHz]     |  1995.1675 |
+|          CPI         |     0.8004 |
+|  Load to store ratio |     2.6817 |
++----------------------+------------+
+
+  adding: piompperfo3(null)_iterLD_LIBRAR (deflated 5%)
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 26 14:40:08 CEST 2024
+= Job-ID             : 1366382 on fritz
+= Job-Name           : parallelpi
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/assg7o3/joblikwid.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/assg7o3
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Features           : hwperf
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:10
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0375
+= Subm/Elig/Start/End: 2024-06-26T14:39:58 / 2024-06-26T14:39:58 / 2024-06-26T14:39:58 / 2024-06-26T14:40:08
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2090.6M   104.9G   209.7G        N/A   9,205      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

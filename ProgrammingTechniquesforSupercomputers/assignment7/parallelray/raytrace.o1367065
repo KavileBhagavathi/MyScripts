@@ -1,0 +1,35 @@
+### Starting TaskPrologue of job 1367065 on f0378 at Wed Jun 26 20:15:59 CEST 2024
+#   SLURM_JOB_NODELIST=f0378
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+raytrace_c.c:132:3: error: statement after '#pragma omp parallel for' must be a for loop
+  count=0;
+  ^
+1 error generated.
+Running benchmark for 1 threads
+Time: 65.001146
+=== JOB_STATISTICS ===
+=== current date     : Wed Jun 26 20:17:08 CEST 2024
+= Job-ID             : 1367065 on fritz
+= Job-Name           : raytrace
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/parallelray/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/parallelray
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:01:10
+= Total RAM usage    : 0.2 GiB 
+= Node list          : f0378
+= Subm/Elig/Start/End: 2024-06-26T20:15:56 / 2024-06-26T20:15:56 / 2024-06-26T20:15:57 / 2024-06-26T20:17:07
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2156.6M   104.9G   209.7G        N/A   9,251      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

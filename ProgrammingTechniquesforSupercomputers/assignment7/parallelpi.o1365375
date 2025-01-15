@@ -1,0 +1,109 @@
+### Starting TaskPrologue of job 1365375 on f1254 at Tue Jun 25 23:00:42 CEST 2024
+#   SLURM_JOB_NODELIST=f1254
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+updating: piompperf1_iter1.txt (deflated 4%)
+updating: piompperf1_iter2.txt (deflated 4%)
+updating: piompperf1_iter3.txt (deflated 4%)
+updating: piompperf1_iter4.txt (deflated 4%)
+updating: piompperf2_iter1.txt (deflated 4%)
+updating: piompperf2_iter2.txt (deflated 4%)
+updating: piompperf2_iter3.txt (deflated 4%)
+updating: piompperf2_iter4.txt (deflated 4%)
+updating: piompperf3_iter1.txt (deflated 4%)
+updating: piompperf3_iter2.txt (deflated 4%)
+updating: piompperf3_iter3.txt (deflated 4%)
+updating: piompperf3_iter4.txt (deflated 4%)
+updating: piompperf4_iter1.txt (deflated 4%)
+updating: piompperf4_iter2.txt (deflated 5%)
+updating: piompperf4_iter3.txt (deflated 4%)
+updating: piompperf4_iter4.txt (deflated 4%)
+updating: piompperf1_iter5.txt (deflated 4%)
+updating: piompperf1_iter6.txt (deflated 4%)
+updating: piompperf1_iter7.txt (deflated 4%)
+updating: piompperf1_iter8.txt (deflated 6%)
+updating: piompperf1_iter9.txt (deflated 4%)
+updating: piompperf2_iter5.txt (deflated 4%)
+updating: piompperf2_iter6.txt (deflated 4%)
+updating: piompperf2_iter7.txt (deflated 4%)
+updating: piompperf2_iter8.txt (deflated 4%)
+updating: piompperf2_iter9.txt (deflated 4%)
+updating: piompperf3_iter5.txt (deflated 4%)
+updating: piompperf3_iter6.txt (deflated 4%)
+updating: piompperf3_iter7.txt (deflated 4%)
+updating: piompperf3_iter8.txt (deflated 4%)
+updating: piompperf3_iter9.txt (deflated 5%)
+updating: piompperf4_iter5.txt (deflated 4%)
+updating: piompperf4_iter6.txt (deflated 5%)
+updating: piompperf4_iter7.txt (deflated 4%)
+updating: piompperf4_iter8.txt (deflated 4%)
+updating: piompperf4_iter9.txt (deflated 4%)
+updating: piompperf1_iter10.txt (deflated 4%)
+updating: piompperf2_iter10.txt (deflated 4%)
+updating: piompperf3_iter10.txt (deflated 4%)
+updating: piompperf4_iter10.txt (deflated 4%)
+=== JOB_STATISTICS ===
+=== current date     : Tue Jun 25 23:03:16 CEST 2024
+= Job-ID             : 1365375 on fritz
+= Job-Name           : parallelpi
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment7
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:02:36
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f1254
+= Subm/Elig/Start/End: 2024-06-25T23:00:16 / 2024-06-25T23:00:16 / 2024-06-25T23:00:39 / 2024-06-25T23:03:15
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2123.1M   104.9G   209.7G        N/A   9,162      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

@@ -1,0 +1,247 @@
+### Starting TaskPrologue of job 1368441 on f0843 at Thu Jun 27 08:08:28 CEST 2024
+#   SLURM_JOB_NODELIST=f0843
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running benchmark for 1 threads
+Time: 65.140618
+Running benchmark for 2 threads
+Time: 35.846762
+Running benchmark for 3 threads
+Time: 26.512915
+Running benchmark for 4 threads
+Time: 20.327670
+Running benchmark for 5 threads
+Time: 15.579888
+Running benchmark for 6 threads
+Time: 13.193068
+Running benchmark for 7 threads
+Time: 11.280191
+Running benchmark for 8 threads
+Time: 11.008422
+Running benchmark for 9 threads
+Time: 11.001870
+Running benchmark for 10 threads
+Time: 9.335860
+Running benchmark for 11 threads
+Time: 8.326359
+Running benchmark for 12 threads
+Time: 7.942345
+Running benchmark for 13 threads
+Time: 6.633564
+Running benchmark for 14 threads
+Time: 6.524380
+Running benchmark for 15 threads
+Time: 5.848504
+Running benchmark for 16 threads
+Time: 5.847986
+Running benchmark for 17 threads
+Time: 5.866808
+Running benchmark for 18 threads
+Time: 5.869369
+Running benchmark for 19 threads
+Time: 5.864304
+Running benchmark for 20 threads
+Time: 5.867015
+Running benchmark for 21 threads
+Time: 5.849075
+Running benchmark for 22 threads
+Time: 5.848701
+Running benchmark for 23 threads
+Time: 5.862672
+Running benchmark for 24 threads
+Time: 5.848342
+Running benchmark for 25 threads
+Time: 5.847536
+Running benchmark for 26 threads
+Time: 5.866491
+Running benchmark for 27 threads
+Time: 5.849761
+Running benchmark for 28 threads
+Time: 5.848791
+Running benchmark for 29 threads
+Time: 5.848286
+Running benchmark for 30 threads
+Time: 5.844848
+Running benchmark for 31 threads
+Time: 5.848623
+Running benchmark for 32 threads
+Time: 5.864782
+Running benchmark for 33 threads
+Time: 5.850835
+Running benchmark for 34 threads
+Time: 5.850439
+Running benchmark for 35 threads
+Time: 5.861973
+Running benchmark for 36 threads
+Time: 5.851567
+Running benchmark for 37 threads
+Time: 5.851729
+Running benchmark for 38 threads
+Time: 5.850650
+Running benchmark for 39 threads
+Time: 5.850721
+Running benchmark for 40 threads
+Time: 5.850122
+Running benchmark for 41 threads
+Time: 5.848897
+Running benchmark for 42 threads
+Time: 5.852515
+Running benchmark for 43 threads
+Time: 5.851083
+Running benchmark for 44 threads
+Time: 5.850984
+Running benchmark for 45 threads
+Time: 5.853520
+Running benchmark for 46 threads
+Time: 5.851848
+Running benchmark for 47 threads
+Time: 5.854895
+Running benchmark for 48 threads
+Time: 5.888619
+Running benchmark for 49 threads
+Time: 5.852995
+Running benchmark for 50 threads
+Time: 5.856979
+Running benchmark for 51 threads
+Time: 5.855543
+Running benchmark for 52 threads
+Time: 5.851291
+Running benchmark for 53 threads
+Time: 5.851192
+Running benchmark for 54 threads
+Time: 5.884307
+Running benchmark for 55 threads
+Time: 5.851472
+Running benchmark for 56 threads
+Time: 5.854689
+Running benchmark for 57 threads
+Time: 5.852299
+Running benchmark for 58 threads
+Time: 5.854671
+Running benchmark for 59 threads
+Time: 5.871407
+Running benchmark for 60 threads
+Time: 5.853837
+Running benchmark for 61 threads
+Time: 5.856543
+Running benchmark for 62 threads
+Time: 5.854569
+Running benchmark for 63 threads
+Time: 5.854095
+Running benchmark for 64 threads
+Time: 5.855321
+Running benchmark for 65 threads
+Time: 5.854599
+Running benchmark for 66 threads
+Time: 5.858435
+Running benchmark for 67 threads
+Time: 5.854442
+Running benchmark for 68 threads
+Time: 5.853843
+Running benchmark for 69 threads
+Time: 5.854551
+Running benchmark for 70 threads
+srun: Job 1368441 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=1368441.69
+Time: 5.860343
+Running benchmark for 71 threads
+Time: 5.857678
+Running benchmark for 72 threads
+Time: 5.875785
+updating: raytrace_core1.txt (deflated 5%)
+updating: raytrace_core10.txt (deflated 3%)
+updating: raytrace_core11.txt (deflated 3%)
+updating: raytrace_core12.txt (deflated 3%)
+updating: raytrace_core13.txt (deflated 3%)
+updating: raytrace_core14.txt (deflated 3%)
+updating: raytrace_core15.txt (deflated 3%)
+updating: raytrace_core16.txt (deflated 3%)
+updating: raytrace_core17.txt (deflated 3%)
+updating: raytrace_core18.txt (deflated 3%)
+updating: raytrace_core19.txt (deflated 3%)
+updating: raytrace_core2.txt (deflated 2%)
+updating: raytrace_core20.txt (deflated 3%)
+updating: raytrace_core21.txt (deflated 3%)
+updating: raytrace_core22.txt (deflated 3%)
+updating: raytrace_core23.txt (deflated 3%)
+updating: raytrace_core24.txt (deflated 3%)
+updating: raytrace_core25.txt (deflated 5%)
+updating: raytrace_core26.txt (deflated 3%)
+updating: raytrace_core27.txt (deflated 3%)
+updating: raytrace_core28.txt (deflated 5%)
+updating: raytrace_core29.txt (deflated 3%)
+updating: raytrace_core3.txt (deflated 3%)
+updating: raytrace_core30.txt (deflated 3%)
+updating: raytrace_core31.txt (deflated 3%)
+updating: raytrace_core32.txt (deflated 3%)
+updating: raytrace_core33.txt (deflated 3%)
+updating: raytrace_core34.txt (deflated 3%)
+updating: raytrace_core35.txt (deflated 3%)
+updating: raytrace_core36.txt (deflated 3%)
+updating: raytrace_core37.txt (deflated 3%)
+updating: raytrace_core38.txt (deflated 3%)
+updating: raytrace_core39.txt (deflated 3%)
+updating: raytrace_core4.txt (deflated 3%)
+updating: raytrace_core40.txt (deflated 3%)
+updating: raytrace_core41.txt (deflated 3%)
+updating: raytrace_core42.txt (deflated 3%)
+updating: raytrace_core43.txt (deflated 3%)
+updating: raytrace_core44.txt (deflated 3%)
+updating: raytrace_core45.txt (deflated 5%)
+updating: raytrace_core46.txt (deflated 3%)
+updating: raytrace_core47.txt (deflated 3%)
+updating: raytrace_core48.txt (deflated 3%)
+updating: raytrace_core49.txt (deflated 3%)
+updating: raytrace_core5.txt (deflated 3%)
+updating: raytrace_core50.txt (deflated 5%)
+updating: raytrace_core51.txt (deflated 3%)
+updating: raytrace_core52.txt (deflated 3%)
+updating: raytrace_core53.txt (deflated 3%)
+updating: raytrace_core54.txt (deflated 3%)
+updating: raytrace_core55.txt (deflated 3%)
+updating: raytrace_core56.txt (deflated 3%)
+updating: raytrace_core57.txt (deflated 3%)
+updating: raytrace_core58.txt (deflated 3%)
+updating: raytrace_core59.txt (deflated 3%)
+updating: raytrace_core6.txt (deflated 3%)
+updating: raytrace_core60.txt (deflated 3%)
+updating: raytrace_core61.txt (deflated 5%)
+updating: raytrace_core62.txt (deflated 3%)
+updating: raytrace_core63.txt (deflated 3%)
+updating: raytrace_core64.txt (deflated 3%)
+updating: raytrace_core65.txt (deflated 3%)
+updating: raytrace_core66.txt (deflated 3%)
+updating: raytrace_core67.txt (deflated 3%)
+updating: raytrace_core68.txt (deflated 3%)
+updating: raytrace_core69.txt (deflated 3%)
+updating: raytrace_core7.txt (deflated 3%)
+updating: raytrace_core70.txt (deflated 3%)
+updating: raytrace_core71.txt (deflated 3%)
+updating: raytrace_core72.txt (deflated 3%)
+updating: raytrace_core8.txt (deflated 3%)
+updating: raytrace_core9.txt (deflated 3%)
+=== JOB_STATISTICS ===
+=== current date     : Thu Jun 27 08:26:26 CEST 2024
+= Job-ID             : 1368441 on fritz
+= Job-Name           : raytrace
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/parallelray/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment7/parallelray
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:17:59
+= Total RAM usage    : 0.2 GiB 
+= Node list          : f0843
+= Subm/Elig/Start/End: 2024-06-27T08:08:25 / 2024-06-27T08:08:25 / 2024-06-27T08:08:26 / 2024-06-27T08:26:25
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         3003.7M   104.9G   209.7G        N/A   9,364      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
