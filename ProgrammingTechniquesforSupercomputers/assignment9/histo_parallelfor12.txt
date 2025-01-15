@@ -1,0 +1,34 @@
+[1;34m[pthread wrapper] 
+[0m[1;34m[pthread wrapper] MAIN -> 0
+[0m[1;34m[pthread wrapper] PIN_MASK: [0m[1;34m0->1  [0m[1;34m1->2  [0m[1;34m2->3  [0m[1;34m3->4  [0m[1;34m4->5  [0m[1;34m5->6  [0m[1;34m6->7  [0m[1;34m7->8  [0m[1;34m8->9  [0m[1;34m9->10  [0m[1;34m10->11  [0m[1;34m
+[pthread wrapper] SKIP MASK: 0x0
+[0m[1;34m	threadid 23250460469120 -> hwthread 1 - OK[0m[1;34m
+[0m[1;34m	threadid 23250456266752 -> hwthread 2 - OK[0m[1;34m
+[0m[1;34m	threadid 23250452064384 -> hwthread 3 - OK[0m[1;34m
+[0m[1;34m	threadid 23250447862016 -> hwthread 4 - OK[0m[1;34m
+[0m[1;34m	threadid 23250443659648 -> hwthread 5 - OK[0m[1;34m
+[0m[1;34m	threadid 23250439457280 -> hwthread 6 - OK[0m[1;34m
+[0m[1;34m	threadid 23250435254912 -> hwthread 7 - OK[0m[1;34m
+[0m[1;34m	threadid 23250431052544 -> hwthread 8 - OK[0m[1;34m
+[0m[1;34m	threadid 23250426850176 -> hwthread 9 - OK[0m[1;34m
+[0m[1;34m	threadid 23250422647808 -> hwthread 10 - OK[0m[1;34m
+[0m[1;34m	threadid 23250418445440 -> hwthread 11 - OK[0m[1;34m
+[0mhist[0]=6146
+hist[1]=6385
+hist[2]=6203
+hist[3]=6266
+hist[4]=6195
+hist[5]=6222
+hist[6]=6222
+hist[7]=6204
+hist[8]=6202
+hist[9]=6165
+hist[10]=6416
+hist[11]=6266
+hist[12]=6227
+hist[13]=6229
+hist[14]=6404
+hist[15]=6232
+Cycles: 411611272.022128 cycles
+Sweeping domain 0: Using 51308.2 MB of 64135.3 MB
+Cleaning LLC with 108 MB

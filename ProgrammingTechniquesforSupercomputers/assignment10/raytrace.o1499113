@@ -1,0 +1,69 @@
+### Starting TaskPrologue of job 1499113 on f0365 at Wed Jul 17 23:52:11 CEST 2024
+#   SLURM_JOB_NODELIST=f0365
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running benchmark for 36 threads
+running tile size 1,
+running tile size 2,
+running tile size 3,
+running tile size 4,
+running tile size 6,
+running tile size 8,
+running tile size 10,
+running tile size 13,
+running tile size 17,
+running tile size 21,
+running tile size 26,
+running tile size 32,
+running tile size 39,
+running tile size 48,
+running tile size 59,
+running tile size 72,
+running tile size 88,
+running tile size 106,
+running tile size 128,
+running tile size 153,
+running tile size 183,
+running tile size 219,
+running tile size 261,
+running tile size 311,
+running tile size 370,
+running tile size 439,
+running tile size 520,
+running tile size 614,
+running tile size 725,
+running tile size 856,
+running tile size 1011,
+running tile size 1193,
+running tile size 1408,
+running tile size 1660,
+running tile size 1957,
+running tile size 2307,
+running tile size 2720,
+running tile size 3000
+=== JOB_STATISTICS ===
+=== current date     : Wed Jul 17 23:52:13 CEST 2024
+= Job-ID             : 1499113 on fritz
+= Job-Name           : raytrace
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment10
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 05:00:00
+= Elapsed runtime    : 00:00:04
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0365
+= Subm/Elig/Start/End: 2024-07-17T23:52:07 / 2024-07-17T23:52:07 / 2024-07-17T23:52:08 / 2024-07-17T23:52:12
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody          0.0K  1000.0G  1500.0G        N/A       8    5,000K   7,500K        N/A    
+    /home/hpc         3518.0M   104.9G   209.7G        N/A   9,933      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

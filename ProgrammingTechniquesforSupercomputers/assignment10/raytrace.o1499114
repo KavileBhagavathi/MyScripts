@@ -1,0 +1,129 @@
+### Starting TaskPrologue of job 1499114 on f0365 at Wed Jul 17 23:53:14 CEST 2024
+#   SLURM_JOB_NODELIST=f0365
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running benchmark for 36 threads
+running tile size 1,
+running tile size 2,
+running tile size 3,
+running tile size 4,
+running tile size 6,
+running tile size 8,
+running tile size 10,
+running tile size 13,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.7
+running tile size 17,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.8
+running tile size 21,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.9
+running tile size 26,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.10
+running tile size 32,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.11
+running tile size 39,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.12
+running tile size 48,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.13
+running tile size 59,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.14
+running tile size 72,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.15
+running tile size 88,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.16
+running tile size 106,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.17
+running tile size 128,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.18
+running tile size 153,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.19
+running tile size 183,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.20
+running tile size 219,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.21
+running tile size 261,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.22
+running tile size 311,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.23
+running tile size 370,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.24
+running tile size 439,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.25
+running tile size 520,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.26
+running tile size 614,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.27
+running tile size 725,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.28
+running tile size 856,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.29
+running tile size 1011,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.30
+running tile size 1193,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.31
+running tile size 1408,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.32
+running tile size 1660,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.33
+running tile size 1957,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.34
+running tile size 2307,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.35
+running tile size 2720,
+srun: error: f0365: task 0: Exited with exit code 1
+srun: Terminating StepId=1499114.36
+running tile size 3000
+=== JOB_STATISTICS ===
+=== current date     : Thu Jul 18 00:21:15 CEST 2024
+= Job-ID             : 1499114 on fritz
+= Job-Name           : raytrace
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment10
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 05:00:00
+= Elapsed runtime    : 00:28:03
+= Total RAM usage    : 0.2 GiB 
+= Node list          : f0365
+= Subm/Elig/Start/End: 2024-07-17T23:53:11 / 2024-07-17T23:53:11 / 2024-07-17T23:53:11 / 2024-07-18T00:21:14
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody          0.0K  1000.0G  1500.0G        N/A       8    5,000K   7,500K        N/A    
+    /home/hpc         3550.8M   104.9G   209.7G        N/A   9,939      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

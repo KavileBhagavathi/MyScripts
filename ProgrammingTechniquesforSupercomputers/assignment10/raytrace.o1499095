@@ -1,0 +1,36 @@
+### Starting TaskPrologue of job 1499095 on f1238 at Wed Jul 17 23:21:58 CEST 2024
+#   SLURM_JOB_NODELIST=f1238
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running benchmark for 36 threads
+running tile size 1
+running tile size 2
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 1499095.1 ON f1238 CANCELLED AT 2024-07-17T23:42:22 ***
+slurmstepd: error: *** JOB 1499095 ON f1238 CANCELLED AT 2024-07-17T23:42:22 ***
+=== JOB_STATISTICS ===
+=== current date     : Wed Jul 17 23:42:25 CEST 2024
+= Job-ID             : 1499095 on fritz
+= Job-Name           : raytrace
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment10
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:20:27
+= Total RAM usage    : 0.2 GiB 
+= Node list          : f1238
+= Subm/Elig/Start/End: 2024-07-17T23:21:54 / 2024-07-17T23:21:54 / 2024-07-17T23:21:55 / 2024-07-17T23:42:22
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody          0.0K  1000.0G  1500.0G        N/A       8    5,000K   7,500K        N/A    
+    /home/hpc         3517.9M   104.9G   209.7G        N/A   9,931      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

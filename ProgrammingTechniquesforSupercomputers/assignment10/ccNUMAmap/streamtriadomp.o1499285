@@ -1,0 +1,64 @@
+### Starting TaskPrologue of job 1499285 on f2269 at Thu Jul 18 06:26:57 CEST 2024
+#   SLURM_JOB_NODELIST=f2269
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=104
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-103 with governor powersave
+### Finished TaskPrologue
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
+0   0  Memory bandwidth: 21143.477949 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   0  Memory bandwidth: 20418.789704 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   0  Memory bandwidth: 22407.953774 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   0  Memory bandwidth: 22483.522564 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+0   1  Memory bandwidth: 18931.878231 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   1  Memory bandwidth: 19825.013503 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   1  Memory bandwidth: 20030.751988 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   1  Memory bandwidth: 20172.951836 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+0   2  Memory bandwidth: 18947.918520 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   2  Memory bandwidth: 19203.558040 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   2  Memory bandwidth: 19913.531006 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   2  Memory bandwidth: 20018.172065 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+0   3  Memory bandwidth: 17495.195135 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   3  Memory bandwidth: 17847.556568 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   3  Memory bandwidth: 18505.851588 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   3  Memory bandwidth: 18380.966913 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+=== JOB_STATISTICS ===
+=== current date     : Thu Jul 18 06:27:47 CEST 2024
+= Job-ID             : 1499285 on fritz
+= Job-Name           : streamtriadomp
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/ccNUMAmap/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/ccNUMAmap
+= Queue/Partition    : spr1tb
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:52
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f2269
+= Subm/Elig/Start/End: 2024-07-18T06:26:53 / 2024-07-18T06:26:53 / 2024-07-18T06:26:54 / 2024-07-18T06:27:46
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody          0.0K  1000.0G  1500.0G        N/A       8    5,000K   7,500K        N/A    
+    /home/hpc         3452.7M   104.9G   209.7G        N/A   9,947      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

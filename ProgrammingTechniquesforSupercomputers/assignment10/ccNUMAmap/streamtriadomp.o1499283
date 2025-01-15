@@ -1,0 +1,160 @@
+### Starting TaskPrologue of job 1499283 on f2269 at Thu Jul 18 06:21:54 CEST 2024
+#   SLURM_JOB_NODELIST=f2269
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=104
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-103 with governor powersave
+### Finished TaskPrologue
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
+0   0  Memory bandwidth: 21100.435554 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   0  Memory bandwidth: 22197.047312 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   0  Memory bandwidth: 22508.180733 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   0  Memory bandwidth: 21049.459820 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+4   0  Memory bandwidth: 22874.319053 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 4 - OK[0m
+5   0  Memory bandwidth: 22857.357139 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 5 - OK[0m
+6   0  Memory bandwidth: 22804.228475 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 6 - OK[0m
+7   0  Memory bandwidth: 22802.426404 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 7 - OK[0m
+0   1  Memory bandwidth: 18957.290665 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   1  Memory bandwidth: 19811.193419 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   1  Memory bandwidth: 19509.071256 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   1  Memory bandwidth: 20406.318070 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+4   1  Memory bandwidth: 19851.568594 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 4 - OK[0m
+5   1  Memory bandwidth: 20218.117803 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 5 - OK[0m
+6   1  Memory bandwidth: 20313.708551 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 6 - OK[0m
+7   1  Memory bandwidth: 20819.180308 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 7 - OK[0m
+0   2  Memory bandwidth: 18162.035312 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   2  Memory bandwidth: 19458.688962 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   2  Memory bandwidth: 19740.196209 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   2  Memory bandwidth: 19106.798377 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+4   2  Memory bandwidth: 18866.358197 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 4 - OK[0m
+5   2  Memory bandwidth: 20151.410690 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 5 - OK[0m
+6   2  Memory bandwidth: 20171.184819 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 6 - OK[0m
+7   2  Memory bandwidth: 18749.597070 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 7 - OK[0m
+0   3  Memory bandwidth: 17256.926812 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   3  Memory bandwidth: 17645.134527 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   3  Memory bandwidth: 18296.275984 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   3  Memory bandwidth: 18447.958826 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+4   3  Memory bandwidth: 18265.308626 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 4 - OK[0m
+5   3  Memory bandwidth: 18613.069311 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 5 - OK[0m
+6   3  Memory bandwidth: 18668.627168 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 6 - OK[0m
+7   3  Memory bandwidth: 17634.144383 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 7 - OK[0m
+0   4  Memory bandwidth: 18870.582949 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   4  Memory bandwidth: 20914.081599 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   4  Memory bandwidth: 20852.709926 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   4  Memory bandwidth: 20631.353295 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+4   4  Memory bandwidth: 20406.425940 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 4 - OK[0m
+5   4  Memory bandwidth: 21477.945373 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 5 - OK[0m
+6   4  Memory bandwidth: 21454.044363 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 6 - OK[0m
+7   4  Memory bandwidth: 20964.544289 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 7 - OK[0m
+0   5  Memory bandwidth: 18844.579604 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   5  Memory bandwidth: 20821.466197 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   5  Memory bandwidth: 21095.237307 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   5  Memory bandwidth: 20983.453858 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+4   5  Memory bandwidth: 20883.290361 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 4 - OK[0m
+5   5  Memory bandwidth: 20996.836624 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 5 - OK[0m
+6   5  Memory bandwidth: 21029.202500 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 6 - OK[0m
+7   5  Memory bandwidth: 20187.708529 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 7 - OK[0m
+0   6  Memory bandwidth: 19231.991788 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   6  Memory bandwidth: 20665.488839 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   6  Memory bandwidth: 20631.580076 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   6  Memory bandwidth: 20758.014631 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+4   6  Memory bandwidth: 20689.193242 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 4 - OK[0m
+5   6  Memory bandwidth: 20485.794139 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 5 - OK[0m
+6   6  Memory bandwidth: 21078.421172 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 6 - OK[0m
+7   6  Memory bandwidth: 19769.355909 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 7 - OK[0m
+0   7  Memory bandwidth: 18171.392178 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 0 - OK[0m
+1   7  Memory bandwidth: 20063.947168 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 1 - OK[0m
+2   7  Memory bandwidth: 20589.265381 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 2 - OK[0m
+3   7  Memory bandwidth: 20634.966462 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 3 - OK[0m
+4   7  Memory bandwidth: 20533.453134 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 4 - OK[0m
+5   7  Memory bandwidth: 20323.935771 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 5 - OK[0m
+6   7  Memory bandwidth: 20010.853385 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 6 - OK[0m
+7   7  Memory bandwidth: 20433.193322 MB/s
+[1;34m[likwid-pin] Main PID -> hwthread 7 - OK[0m
+=== JOB_STATISTICS ===
+=== current date     : Thu Jul 18 06:25:09 CEST 2024
+= Job-ID             : 1499283 on fritz
+= Job-Name           : streamtriadomp
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/ccNUMAmap/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/ccNUMAmap
+= Queue/Partition    : spr1tb
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:03:18
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f2269
+= Subm/Elig/Start/End: 2024-07-18T06:21:49 / 2024-07-18T06:21:49 / 2024-07-18T06:21:50 / 2024-07-18T06:25:08
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody          0.0K  1000.0G  1500.0G        N/A       8    5,000K   7,500K        N/A    
+    /home/hpc         3485.4M   104.9G   209.7G        N/A   9,945      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

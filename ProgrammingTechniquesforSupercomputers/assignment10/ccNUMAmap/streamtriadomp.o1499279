@@ -1,0 +1,96 @@
+### Starting TaskPrologue of job 1499279 on f2269 at Thu Jul 18 05:56:53 CEST 2024
+#   SLURM_JOB_NODELIST=f2269
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=104
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-103 with governor powersave
+### Finished TaskPrologue
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
+0   0  Memory bandwidth: 21177.461997 MB/s
+1   0  Memory bandwidth: 20112.351237 MB/s
+2   0  Memory bandwidth: 19194.637048 MB/s
+3   0  Memory bandwidth: 19108.184288 MB/s
+4   0  Memory bandwidth: 21077.459551 MB/s
+5   0  Memory bandwidth: 20955.289664 MB/s
+6   0  Memory bandwidth: 20815.011731 MB/s
+7   0  Memory bandwidth: 20356.542569 MB/s
+0   1  Memory bandwidth: 19231.555901 MB/s
+1   1  Memory bandwidth: 22315.077671 MB/s
+2   1  Memory bandwidth: 17926.621768 MB/s
+3   1  Memory bandwidth: 17312.870624 MB/s
+4   1  Memory bandwidth: 19517.989307 MB/s
+5   1  Memory bandwidth: 19871.245708 MB/s
+6   1  Memory bandwidth: 19360.776807 MB/s
+7   1  Memory bandwidth: 22355.745918 MB/s
+0   2  Memory bandwidth: 19075.268538 MB/s
+1   2  Memory bandwidth: 17940.992434 MB/s
+2   2  Memory bandwidth: 22254.023104 MB/s
+3   2  Memory bandwidth: 18880.121726 MB/s
+4   2  Memory bandwidth: 20522.818441 MB/s
+5   2  Memory bandwidth: 20638.447807 MB/s
+6   2  Memory bandwidth: 18718.745787 MB/s
+7   2  Memory bandwidth: 18248.030926 MB/s
+0   3  Memory bandwidth: 17398.817763 MB/s
+1   3  Memory bandwidth: 19542.288730 MB/s
+2   3  Memory bandwidth: 20292.781662 MB/s
+3   3  Memory bandwidth: 19600.452708 MB/s
+4   3  Memory bandwidth: 20867.149739 MB/s
+5   3  Memory bandwidth: 20392.090760 MB/s
+6   3  Memory bandwidth: 17942.489302 MB/s
+7   3  Memory bandwidth: 20138.167269 MB/s
+0   4  Memory bandwidth: 18497.274904 MB/s
+1   4  Memory bandwidth: 21436.328160 MB/s
+2   4  Memory bandwidth: 20901.296932 MB/s
+3   4  Memory bandwidth: 21998.766476 MB/s
+4   4  Memory bandwidth: 19810.720896 MB/s
+5   4  Memory bandwidth: 18512.566981 MB/s
+6   4  Memory bandwidth: 18967.864485 MB/s
+7   4  Memory bandwidth: 21062.362266 MB/s
+0   5  Memory bandwidth: 18889.738399 MB/s
+1   5  Memory bandwidth: 20727.557678 MB/s
+2   5  Memory bandwidth: 20872.703783 MB/s
+3   5  Memory bandwidth: 20191.559502 MB/s
+4   5  Memory bandwidth: 22255.357525 MB/s
+5   5  Memory bandwidth: 17806.358155 MB/s
+6   5  Memory bandwidth: 20526.425203 MB/s
+7   5  Memory bandwidth: 21055.314333 MB/s
+0   6  Memory bandwidth: 19133.284861 MB/s
+1   6  Memory bandwidth: 20740.454437 MB/s
+2   6  Memory bandwidth: 20236.281927 MB/s
+3   6  Memory bandwidth: 19476.452490 MB/s
+4   6  Memory bandwidth: 17749.565936 MB/s
+5   6  Memory bandwidth: 22059.359676 MB/s
+6   6  Memory bandwidth: 20446.253770 MB/s
+7   6  Memory bandwidth: 20063.840637 MB/s
+0   7  Memory bandwidth: 18214.238657 MB/s
+1   7  Memory bandwidth: 20425.075596 MB/s
+2   7  Memory bandwidth: 20207.444724 MB/s
+3   7  Memory bandwidth: 17793.212266 MB/s
+4   7  Memory bandwidth: 19487.909562 MB/s
+5   7  Memory bandwidth: 19882.242140 MB/s
+6   7  Memory bandwidth: 20199.297001 MB/s
+7   7  Memory bandwidth: 20402.247662 MB/s
+=== JOB_STATISTICS ===
+=== current date     : Thu Jul 18 06:00:09 CEST 2024
+= Job-ID             : 1499279 on fritz
+= Job-Name           : streamtriadomp
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/ccNUMAmap/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment10/ccNUMAmap
+= Queue/Partition    : spr1tb
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:03:20
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f2269
+= Subm/Elig/Start/End: 2024-07-18T05:56:49 / 2024-07-18T05:56:49 / 2024-07-18T05:56:49 / 2024-07-18T06:00:09
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody          0.0K  1000.0G  1500.0G        N/A       8    5,000K   7,500K        N/A    
+    /home/hpc         3452.6M   104.9G   209.7G        N/A   9,943      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

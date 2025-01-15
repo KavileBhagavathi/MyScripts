@@ -1,0 +1,51 @@
+### Starting TaskPrologue of job 1465711 on f0366 at Sun Jul 14 23:41:08 CEST 2024
+#   SLURM_JOB_NODELIST=f0366
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=1
+#   SLURM_NPROCS=1
+#   SLURM_TASKS_PER_NODE=1
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+NOTE: If and ONLY IF you want to use likwid-perfctr you have to add '--constraint=hwperf' to your batch jobs.
+      likwid-features and likwid-setFrequencies are not available. The frequency/governor can be set using SLURM features.
+Running benchmark for 1 threads
+Running benchmark for 2 threads
+Running benchmark for 3 threads
+Running benchmark for 4 threads
+Running benchmark for 5 threads
+Running benchmark for 6 threads
+Running benchmark for 7 threads
+Running benchmark for 8 threads
+Running benchmark for 9 threads
+Running benchmark for 10 threads
+Running benchmark for 11 threads
+Running benchmark for 12 threads
+Running benchmark for 13 threads
+Running benchmark for 14 threads
+Running benchmark for 15 threads
+Running benchmark for 16 threads
+Running benchmark for 17 threads
+Running benchmark for 18 threads
+=== JOB_STATISTICS ===
+=== current date     : Sun Jul 14 23:49:02 CEST 2024
+= Job-ID             : 1465711 on fritz
+= Job-Name           : parallelpi
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment9/jobhisto_overhead.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment9
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Features           : hwperf
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:07:56
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0366
+= Subm/Elig/Start/End: 2024-07-14T23:41:03 / 2024-07-14T23:41:03 / 2024-07-14T23:41:06 / 2024-07-14T23:49:02
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/woody          0.0K  1000.0G  1500.0G        N/A       8    5,000K   7,500K        N/A    
+    /home/hpc         3077.5M   104.9G   209.7G        N/A   9,842      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
