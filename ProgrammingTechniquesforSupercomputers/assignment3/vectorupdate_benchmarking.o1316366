@@ -1,0 +1,19 @@
+=== JOB_STATISTICS ===
+=== current date     : Wed May 29 15:58:52 CEST 2024
+= Job-ID             : 1316366 on fritz
+= Job-Name           : vectorupdate_benchmarking
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment3/job_strided.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment3
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:03:40
+= Total RAM usage    : 0.7 GiB 
+= Node list          : f0904
+= Subm/Elig/Start/End: 2024-05-29T15:55:11 / 2024-05-29T15:55:11 / 2024-05-29T15:55:11 / 2024-05-29T15:58:51
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1197.1M   104.9G   209.7G        N/A   5,120      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

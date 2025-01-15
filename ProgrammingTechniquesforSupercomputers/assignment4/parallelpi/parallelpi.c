@@ -27,7 +27,7 @@ int main(int argc, char** argv){
     }
 
     wcTimeStart = getTimeStamp();
-    #pragma omp parallel for reduction(+:sum)
+    #pragma omp parallel for reduction(+:sum) private(x)
     for (int i=0; i<slices; i++){
         double x = (i+0.5)*delta_x;
         sum = sum + 4*sqrt(1.0-x*x);

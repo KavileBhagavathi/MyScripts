@@ -1,0 +1,30 @@
+### Starting TaskPrologue of job 1292435 on f0306 at Wed May 15 15:32:58 CEST 2024
+#   SLURM_JOB_NODELIST=f0306
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=
+#   SLURM_NPROCS=
+#   SLURM_TASKS_PER_NODE=72
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Running STREAM triad
+=== JOB_STATISTICS ===
+=== current date     : Wed May 15 15:33:25 CEST 2024
+= Job-ID             : 1292435 on fritz
+= Job-Name           : streamtriad_daxpy_benchmarking
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment2/job.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment2
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:29
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0306
+= Subm/Elig/Start/End: 2024-05-15T15:32:47 / 2024-05-15T15:32:47 / 2024-05-15T15:32:55 / 2024-05-15T15:33:24
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1196.2M   104.9G   209.7G        N/A   5,001      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

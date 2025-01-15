@@ -1,0 +1,37 @@
+### Starting TaskPrologue of job 1316318 on f0318 at Wed May 29 15:21:48 CEST 2024
+#   SLURM_JOB_NODELIST=f0318
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=
+#   SLURM_NPROCS=
+#   SLURM_TASKS_PER_NODE=72
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+Compiling successful
+Running benchmarks
+rm: cannot remove 'vectorupdate.zip': No such file or directory
+  adding: vectorupdate_benchmark01.txt (deflated 35%)
+  adding: vectorupdate_benchmark02.txt (deflated 35%)
+  adding: vectorupdate_benchmark03.txt (deflated 36%)
+  adding: vectorupdate_benchmark04.txt (deflated 36%)
+  adding: vectorupdate_benchmark05.txt (deflated 35%)
+=== JOB_STATISTICS ===
+=== current date     : Wed May 29 15:22:01 CEST 2024
+= Job-ID             : 1316318 on fritz
+= Job-Name           : schonauer_benchmarking
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment3/job_strided.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment3
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:15
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0318
+= Subm/Elig/Start/End: 2024-05-29T15:21:45 / 2024-05-29T15:21:45 / 2024-05-29T15:21:46 / 2024-05-29T15:22:01
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1197.0M   104.9G   209.7G        N/A   5,116      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================

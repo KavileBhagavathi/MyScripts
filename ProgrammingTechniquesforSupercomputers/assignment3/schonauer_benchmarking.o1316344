@@ -1,0 +1,47 @@
+### Starting TaskPrologue of job 1316344 on f0355 at Wed May 29 15:42:46 CEST 2024
+#   SLURM_JOB_NODELIST=f0355
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=
+#   SLURM_NPROCS=
+#   SLURM_TASKS_PER_NODE=72
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+assignment3strided.c:20:14: error: use of undeclared identifier 'n'
+        for (n=0; M<=(int)pow(10,6); n++) //M is the stride size
+             ^
+assignment3strided.c:20:38: error: use of undeclared identifier 'n'
+        for (n=0; M<=(int)pow(10,6); n++) //M is the stride size
+                                     ^
+assignment3strided.c:22:42: error: use of undeclared identifier 'n'
+            M = 8*((int)pow((double) 1.2,n));
+                                         ^
+3 errors generated.
+Compiling successful
+Running benchmarks
+rm: cannot remove 'vectorupdate.zip': No such file or directory
+  adding: vectorupdate_benchmark01.txt (deflated 36%)
+  adding: vectorupdate_benchmark02.txt (deflated 36%)
+  adding: vectorupdate_benchmark03.txt (deflated 35%)
+  adding: vectorupdate_benchmark04.txt (deflated 36%)
+  adding: vectorupdate_benchmark05.txt (deflated 36%)
+=== JOB_STATISTICS ===
+=== current date     : Wed May 29 15:43:01 CEST 2024
+= Job-ID             : 1316344 on fritz
+= Job-Name           : schonauer_benchmarking
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment3/job_strided.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment3
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 01:00:00
+= Elapsed runtime    : 00:00:17
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f0355
+= Subm/Elig/Start/End: 2024-05-29T15:42:43 / 2024-05-29T15:42:43 / 2024-05-29T15:42:43 / 2024-05-29T15:43:00
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         1197.0M   104.9G   209.7G        N/A   5,115      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
