@@ -1,0 +1,40 @@
+### Starting TaskPrologue of job 1283849 on f1253 at Wed May  8 14:28:31 CEST 2024
+#   SLURM_JOB_NODELIST=f1253
+#   SLURM_JOB_NUM_NODES=1
+#   SLURM_NTASKS=
+#   SLURM_NPROCS=
+#   SLURM_TASKS_PER_NODE=72
+#   SLURM_JOB_CPUS_PER_NODE=72
+#   SLURM_EXPORT_ENV=NONE
+Running on cores 0-71 with governor powersave
+### Finished TaskPrologue
+double precision run
+Pi is 3.141592653571741778
+Walltime: 1.256 s
+Pi is 3.141592653571741778
+Walltime: 1.255 s
+Pi is 3.141592653571741778
+Walltime: 1.255 s
+Pi is 3.141592653571741778
+Walltime: 1.255 s
+Pi is 3.141592653571741778
+Walltime: 1.255 s
+=== JOB_STATISTICS ===
+=== current date     : Wed May  8 14:28:45 CEST 2024
+= Job-ID             : 1283849 on fritz
+= Job-Name           : pi_cal_doubleprecis
+= Job-Command        : /home/hpc/ptfs/ptfs288h/ptfs/assignment1/job_double.sh
+= Initial workdir    : /home/hpc/ptfs/ptfs288h/ptfs/assignment1
+= Queue/Partition    : singlenode
+= Slurm account      : ptfs with QOS=ptfs
+= Requested resources:  for 00:30:00
+= Elapsed runtime    : 00:00:16
+= Total RAM usage    : 0.0 GiB 
+= Node list          : f1253
+= Subm/Elig/Start/End: 2024-05-08T14:28:15 / 2024-05-08T14:28:15 / 2024-05-08T14:28:29 / 2024-05-08T14:28:45
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc          386.4M   104.9G   209.7G        N/A   1,819      500K   1,000K        N/A    
+    /lustre              4.0K     0.0K     0.0K        N/A       1       80K     250K        N/A    
+======================
